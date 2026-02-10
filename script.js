@@ -1,8 +1,8 @@
 // ====== CONFIG ======
 // Change this to your desired passcode:
-const PASSCODE = "0214"; // example: Valentine's Day
+const PASSCODE = "Rufus0809"; // example: Valentine's Day
 // Optional: store a "name" for a cuter error message
-const CUTE_NAME = "bestie";
+const CUTE_NAME = "Carrots";
 
 // ====== PASSCODE GATE (index.html) ======
 const passForm = document.getElementById("passForm");
