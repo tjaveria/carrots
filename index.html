@@ -1,0 +1,41 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>💌 Secret Valentine</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body class="bg">
+  <main class="card">
+    <div class="badge">💘</div>
+    <h1>Secret Valentine Portal</h1>
+    <p class="sub">Enter the passcode to continue.</p>
+
+    <form id="passForm" class="stack" autocomplete="off">
+      <label class="label" for="passcode">Passcode</label>
+      <input
+        id="passcode"
+        class="input"
+        type="password"
+        placeholder="••••"
+        inputmode="numeric"
+        required
+      />
+      <button class="btn primary" type="submit">Unlock</button>
+      <p id="hint" class="hint">Hint: it’s something you’ll remember 😉</p>
+      <p id="error" class="error" aria-live="polite"></p>
+    </form>
+
+    <div class="footer">
+      <span class="tiny">Made with ❤️</span>
+    </div>
+  </main>
+
+  <div class="hearts" aria-hidden="true">
+    <span>💗</span><span>💖</span><span>💘</span><span>💞</span><span>💓</span>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
