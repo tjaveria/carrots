@@ -20,7 +20,7 @@ if (passForm && passInput) {
       window.location.href = "ask.html";
     } else {
       localStorage.setItem("valentineUnlocked", "false");
-      errorEl.textContent = `Nope 😅 Try again, ${CUTE_NAME}.`;
+      errorEl.textContent = `Wrong(like always)! Try again, ${CUTE_NAME}.`;
       passInput.value = "";
       passInput.focus();
       shake(passForm);
