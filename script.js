@@ -44,11 +44,11 @@ if (noBtn) {
   let tries = 0;
 
   const messages = [
-    "Wait… are you sure? 😭",
+    "Wait… are you sure?",
     "That button seems suspicious…",
-    "I don’t think you meant that 😌",
-    "Be serious rn 😤",
-    "Okay fine, you can’t press it 😂",
+    "I don’t think you meant that, my love",
+    "Be fucking for real rn",
+    "No, you can’t press it",
   ];
 
   noBtn.addEventListener("mouseenter", () => {
